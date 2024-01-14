@@ -1,0 +1,16 @@
+2023-12-26 16:01:09,961 Requests DEBUG 发送post请求 
+2023-12-26 16:01:10,043 AssertUtil ERROR code error,code is 502,expected_code is 400 
+2023-12-26 16:01:10,086 Requests DEBUG 发送post请求 
+2023-12-26 16:01:10,127 AssertUtil ERROR code error,code is 502,expected_code is 400 
+2023-12-26 16:01:10,135 Requests DEBUG 发送post请求 
+2023-12-26 16:01:10,176 AssertUtil ERROR code error,code is 502,expected_code is 400 
+2023-12-26 16:01:10,185 Requests DEBUG 发送post请求 
+2023-12-26 16:01:10,223 AssertUtil ERROR code error,code is 502,expected_code is 200 
+2023-12-26 16:01:10,231 Requests DEBUG 发送post请求 
+2023-12-26 16:01:10,273 AssertUtil ERROR code error,code is 502,expected_code is 400 
+2023-12-26 16:01:10,281 Requests DEBUG 发送get请求 
+2023-12-26 16:01:10,321 AssertUtil ERROR code error,code is 502,expected_code is 401 
+2023-12-26 16:01:10,334 Requests DEBUG 发送get请求 
+2023-12-26 16:01:10,372 AssertUtil ERROR code error,code is 502,expected_code is 200 
+2023-12-26 16:01:10,384 Requests DEBUG 发送post请求 
+2023-12-26 16:01:10,437 Requests DEBUG 发送post请求 

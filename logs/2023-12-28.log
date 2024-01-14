@@ -1,0 +1,104 @@
+2023-12-28 11:31:39,255 Requests DEBUG 发送post请求 
+2023-12-28 11:34:17,886 Requests DEBUG 发送post请求 
+2023-12-28 11:34:17,902 AssertUtil ERROR code error,code is 405,expected_code is 400 
+2023-12-28 11:34:17,951 Requests DEBUG 发送post请求 
+2023-12-28 11:34:17,959 AssertUtil ERROR code error,code is 405,expected_code is 400 
+2023-12-28 11:34:17,967 Requests DEBUG 发送post请求 
+2023-12-28 11:34:17,973 AssertUtil ERROR code error,code is 405,expected_code is 400 
+2023-12-28 11:34:17,982 Requests DEBUG 发送post请求 
+2023-12-28 11:34:17,984 AssertUtil ERROR code error,code is 405,expected_code is 200 
+2023-12-28 11:34:17,994 Requests DEBUG 发送post请求 
+2023-12-28 11:34:18,000 AssertUtil ERROR code error,code is 405,expected_code is 400 
+2023-12-28 11:34:18,014 Requests DEBUG 发送get请求 
+2023-12-28 11:34:18,019 AssertUtil ERROR code error,code is 404,expected_code is 401 
+2023-12-28 11:41:09,279 Requests DEBUG 发送post请求 
+2023-12-28 11:41:09,305 AssertUtil ERROR code error,code is 405,expected_code is 400 
+2023-12-28 11:41:09,355 Requests DEBUG 发送post请求 
+2023-12-28 11:41:09,358 AssertUtil ERROR code error,code is 405,expected_code is 400 
+2023-12-28 11:41:09,368 Requests DEBUG 发送post请求 
+2023-12-28 11:41:09,371 AssertUtil ERROR code error,code is 405,expected_code is 400 
+2023-12-28 11:41:09,381 Requests DEBUG 发送post请求 
+2023-12-28 11:41:09,384 AssertUtil ERROR code error,code is 405,expected_code is 200 
+2023-12-28 11:41:09,395 Requests DEBUG 发送post请求 
+2023-12-28 11:41:09,398 AssertUtil ERROR code error,code is 405,expected_code is 400 
+2023-12-28 11:41:09,408 Requests DEBUG 发送get请求 
+2023-12-28 11:41:09,411 AssertUtil ERROR code error,code is 404,expected_code is 401 
+2023-12-28 11:48:47,246 Requests DEBUG 发送post请求 
+2023-12-28 11:48:47,328 AssertUtil ERROR code error,code is 405,expected_code is 400 
+2023-12-28 11:48:47,378 Requests DEBUG 发送post请求 
+2023-12-28 11:48:47,381 AssertUtil ERROR code error,code is 405,expected_code is 400 
+2023-12-28 11:48:47,393 Requests DEBUG 发送post请求 
+2023-12-28 11:48:47,399 AssertUtil ERROR code error,code is 405,expected_code is 400 
+2023-12-28 11:48:47,416 Requests DEBUG 发送post请求 
+2023-12-28 11:48:47,419 AssertUtil ERROR code error,code is 405,expected_code is 200 
+2023-12-28 11:48:47,430 Requests DEBUG 发送post请求 
+2023-12-28 11:48:47,432 AssertUtil ERROR code error,code is 405,expected_code is 400 
+2023-12-28 11:48:47,441 Requests DEBUG 发送get请求 
+2023-12-28 11:48:47,449 AssertUtil ERROR code error,code is 404,expected_code is 401 
+2023-12-28 11:50:45,688 Requests DEBUG 发送post请求 
+2023-12-28 11:50:45,714 AssertUtil ERROR code error,code is 405,expected_code is 400 
+2023-12-28 11:52:56,947 Requests DEBUG 发送post请求 
+2023-12-28 11:52:56,980 AssertUtil ERROR code error,code is 405,expected_code is 400 
+2023-12-28 11:53:14,645 Requests DEBUG 发送post请求 
+2023-12-28 11:53:14,674 AssertUtil ERROR code error,code is 200,expected_code is 400 
+2023-12-28 13:03:33,662 Requests DEBUG 发送post请求 
+2023-12-28 13:03:33,787 AssertUtil ERROR code error,code is 200,expected_code is 400 
+2023-12-28 15:05:33,850 Requests DEBUG 发送post请求 
+2023-12-28 15:05:33,991 AssertUtil ERROR 不包含或者body是错误，body is "{'nickname': '1\u53f7\u8d85\u7ea7\u7ba1\u7406\u5458', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwNjMzM30.HrPDZGU0Y69ZC0Rny6f77TIAHFOhnkilNu-YJG5pCVI'}",expected_body is nickname': '1号超级管理员', 'ret': 0 
+2023-12-28 15:11:24,066 Requests DEBUG 发送post请求 
+2023-12-28 15:11:24,150 AssertUtil ERROR 不包含或者body是错误，body is {'nickname': '1号超级管理员', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwNjY4NH0.mpBW-9Zn4p2iBQsSIHvt63ZB_3_jf8KUVFNigUcuFEI'},expected_body is nickname': '1号超级管理员', 'ret': 0 
+2023-12-28 15:18:42,901 Requests DEBUG 发送post请求 
+2023-12-28 15:18:43,087 AssertUtil ERROR 不包含或者body是错误，body is {'nickname': '1号超级管理员', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwNzEyM30.sLZCVzS7tz-UscXYj4cmxdz631-JhEwwhvigKBdTpN8'},expected_body is 1号超级管理员 
+2023-12-28 15:20:03,174 Requests DEBUG 发送post请求 
+2023-12-28 15:20:03,187 AssertUtil ERROR 不包含或者body是错误，body is {'nickname': '1号超级管理员', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwNzIwM30.QjaOixYDZsuCDf_CHmTBVM8uMIvine1AeYwpo_IJ83s'},expected_body is 1号超级管理员 
+2023-12-28 15:23:05,456 Requests DEBUG 发送post请求 
+2023-12-28 15:23:05,471 AssertUtil ERROR 不包含或者body是错误，body is {'nickname': '1号超级管理员', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwNzM4NX0.arAyxHndcijDYNOr0zQx12i_UzX-jUOhZxABsSNcOx4'},expected_body is 1号超级管理员 
+2023-12-28 15:24:47,718 Requests DEBUG 发送post请求 
+2023-12-28 15:25:47,328 Requests DEBUG 发送post请求 
+2023-12-28 15:25:47,337 AssertUtil ERROR <class 'str'> <class 'str'>  
+2023-12-28 15:25:47,337 AssertUtil ERROR 不包含或者body是错误，body is {'nickname': '1号超级管理员', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwNzU0N30.Cuo6RE1a3wumwBP1yXihN3YiaxGAbGVLB_XT-fUCvtE'},expected_body is 1号超级管理员 
+2023-12-28 15:35:02,788 Requests DEBUG 发送post请求 
+2023-12-28 15:35:02,824 AssertUtil ERROR <class 'dict'> <class 'str'>  
+2023-12-28 15:35:02,824 AssertUtil ERROR 不包含或者body是错误，body is {'nickname': '1号超级管理员', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwODEwMn0.iV3xEmr9OUNBj0J42cu1uN90BEXF1aREwEULFd9Qkws'},expected_body is 1号超级管理员 
+2023-12-28 15:38:22,371 Requests DEBUG 发送post请求 
+2023-12-28 15:38:22,396 AssertUtil ERROR <class 'str'> <class 'str'>  
+2023-12-28 15:38:22,396 AssertUtil ERROR 不包含或者body是错误，body is {'nickname': '1号超级管理员', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwODMwMn0.ZmmMWRtiBDJKsqHSeQHLKSsbo_X15vpGd35Xn5YF0mI'},expected_body is 1号超级管理员 
+2023-12-28 15:38:51,863 Requests DEBUG 发送post请求 
+2023-12-28 15:38:51,879 AssertUtil ERROR <class 'str'> <class 'str'>  
+2023-12-28 15:38:51,879 AssertUtil ERROR 不包含或者body是错误，body is {'nickname': '1号超级管理员', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwODMzMX0.cCWmObglGlRZaLdFKzBWkXA6qL_jJL9vfUD_Ha4P0Ik'},expected_body is 1号超级管理员 
+2023-12-28 15:40:01,623 Requests DEBUG 发送post请求 
+2023-12-28 15:40:01,638 AssertUtil ERROR <class 'str'> <class 'str'>  
+2023-12-28 15:40:01,638 AssertUtil ERROR 不包含或者body是错误，body is {'nickname': '1号超级管理员', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwODQwMX0.sPLLSmpWqwj5UiTElm4RbHDNfLHpVeKS9Y-y8W7zSE4'},expected_body is nickname 
+2023-12-28 15:43:16,841 Requests DEBUG 发送post请求 
+2023-12-28 15:43:16,879 AssertUtil ERROR <class 'str'> <class 'str'>  
+2023-12-28 15:43:16,879 AssertUtil ERROR 不包含或者body是错误，body is {'nickname': '1号超级管理员', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwODU5Nn0.-3y6GJ2nPDFXOiwXJAZhdPu990UCWDNKsDmKnQZ1Ijw'},expected_body is nickname 
+2023-12-28 15:44:13,714 Requests DEBUG 发送post请求 
+2023-12-28 15:44:13,727 AssertUtil ERROR <class 'str'> <class 'str'>  
+2023-12-28 15:44:13,727 AssertUtil ERROR 不包含或者body是错误，body is {'nickname': '1号超级管理员', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwODY1M30.vz57dFilXlU3RlQ4mfKqRkMGN47ReqlEM1yw8wZ68K0'},expected_body is nickname': '1号超级管理员' 
+2023-12-28 15:45:50,336 Requests DEBUG 发送post请求 
+2023-12-28 15:45:50,354 AssertUtil ERROR <class 'str'> <class 'str'>  
+2023-12-28 15:45:50,354 AssertUtil ERROR 不包含或者body是错误，body is "{'nickname': '1\u53f7\u8d85\u7ea7\u7ba1\u7406\u5458', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwODc1MH0.SgjBOiO6J4qHAkjSm48nt0Xmv41cuTJS-sMakMer9KI'}",expected_body is nickname': '1号超级管理员' 
+2023-12-28 15:45:59,813 Requests DEBUG 发送post请求 
+2023-12-28 15:45:59,826 AssertUtil ERROR <class 'str'> <class 'str'>  
+2023-12-28 15:45:59,826 AssertUtil ERROR 不包含或者body是错误，body is "{'nickname': '1\u53f7\u8d85\u7ea7\u7ba1\u7406\u5458', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwODc1OX0.LAP1KaOtnRt102tkHABe89sGjDqhSoT4PfhusAvqFNA'}",expected_body is nickname': '1号超级管理员' 
+2023-12-28 15:56:22,707 Requests DEBUG 发送post请求 
+2023-12-28 15:56:22,746 AssertUtil ERROR <class 'str'> <class 'str'>  
+2023-12-28 15:56:22,746 AssertUtil ERROR 不包含或者body是错误，body is "{'nickname': '1\u53f7\u8d85\u7ea7\u7ba1\u7406\u5458', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwOTM4Mn0.qxe-Wfo9ZLotHuW-CCJiQEpJLoo3MMEkH2Qv5c6zFD4'}",expected_body is nickname': '1号超级管理员' 
+2023-12-28 16:01:07,200 AssertUtil ERROR <class 'str'> <class 'str'>  
+2023-12-28 16:01:07,200 AssertUtil ERROR 不包含或者body是错误，body is "{'nickname': '1\u53f7\u8d85\u7ea7\u7ba1\u7406\u5458', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwNzU0N30.Cuo6RE1a3wumwBP1yXihN3YiaxGAbGVLB_XT-fUCvtE'}",expected_body is 'nickname': '1号超级管理员' 
+2023-12-28 16:02:33,929 AssertUtil ERROR <class 'str'> <class 'str'>  
+2023-12-28 16:02:33,930 AssertUtil ERROR 不包含或者body是错误，body is "{'nickname': '1\u53f7\u8d85\u7ea7\u7ba1\u7406\u5458', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwNzU0N30.Cuo6RE1a3wumwBP1yXihN3YiaxGAbGVLB_XT-fUCvtE'}",expected_body is 'nickname': '1号超级管理员' 
+2023-12-28 16:03:15,197 AssertUtil ERROR <class 'str'> <class 'str'>  
+2023-12-28 16:03:15,198 AssertUtil ERROR 不包含或者body是错误，body is "{'nickname': '1\u53f7\u8d85\u7ea7\u7ba1\u7406\u5458', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwNzU0N30.Cuo6RE1a3wumwBP1yXihN3YiaxGAbGVLB_XT-fUCvtE'}",expected_body is 'nickname': '1号超级管理员' 
+2023-12-28 16:03:41,715 AssertUtil ERROR <class 'str'> <class 'str'>  
+2023-12-28 16:03:41,715 AssertUtil ERROR 不包含或者body是错误，body is {'nickname': '1号超级管理员', 'ret': 0, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYnloeSIsImV4cCI6MTcwNDAwNzU0N30.Cuo6RE1a3wumwBP1yXihN3YiaxGAbGVLB_XT-fUCvtE'},expected_body is 'nickname': '1号超级管理员' 
+2023-12-28 16:09:07,292 Requests DEBUG 发送post请求 
+2023-12-28 16:11:14,101 Requests DEBUG 发送post请求 
+2023-12-28 17:44:48,252 Requests DEBUG 发送post请求 
+2023-12-28 17:44:56,957 Requests DEBUG 发送post请求 
+2023-12-28 17:58:59,942 Requests DEBUG 发送post请求 
+2023-12-28 18:03:57,592 Requests DEBUG 发送post请求 
+2023-12-28 18:03:57,755 /Users/danfengxu/Desktop/pytest/InterAutoTest_W（项目及框架代码）/InterAutoTest_W/utils/LogUtil.py DEBUG 数据库查询结果：{'sno': '108', 'sname': '曾华', 'ssex': '男', 'sbirthday': datetime.datetime(1977, 9, 1, 0, 0), 'class': '95033', 'age': 18} 
+2023-12-28 18:15:17,048 Requests DEBUG 发送post请求 
+2023-12-28 18:15:17,100 /Users/danfengxu/Desktop/pytest/InterAutoTest_W（项目及框架代码）/InterAutoTest_W/utils/LogUtil.py DEBUG 数据库查询结果：{'sno': '108', 'sname': '曾华', 'ssex': '男', 'sbirthday': datetime.datetime(1977, 9, 1, 0, 0), 'class': '95033', 'age': 18} 
+2023-12-28 18:23:00,251 Requests DEBUG 发送post请求 
