@@ -3,7 +3,7 @@ from utils.LogUtil import my_log
 #1、创建封装get方法
 def requests_get(url,headers):
 #2、发送requests get请求
-    r = requests.get(url,headers = headers)
+    r = requests.get(url,headers=headers)
 #3、获取结果相应内容
     code = r.status_code
     try:
@@ -80,3 +80,9 @@ class Request:
         #url,json,headers,cookies,method
     #3、调用公共方法
         return self.requests_api(url,method="post",**kwargs)
+
+if __name__ == '__main__':
+    data_json = {'username': 'byhy','password': 'sdfsdf'}
+    headers = {"Content-Type": "application/json","Accept": "*/*"}
+    result = requests.post(url='http://127.0.0.1:8234/api/operator_login',headers=headers,json=data_json)
+    print(result.json())

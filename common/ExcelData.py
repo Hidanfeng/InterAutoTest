@@ -1,3 +1,5 @@
+import json
+
 from utils.ExcelUtil import ExcelReader
 from common.ExcelConfig import DataConfig
 
@@ -15,11 +17,9 @@ class Data:
         """
         run_list = list()
         for line in self.reader.data():
-            if str(line[DataConfig().is_run]).lower() == "y":
-                #print(line)
+            if str( line[DataConfig().is_run]).lower() == "y":
         #3、保存要执行结果，放到新的列表。
                 run_list.append(line)
-        print(run_list)
         return run_list
 
     def get_case_list(self):
@@ -46,3 +46,8 @@ class Data:
             if pre in dict(line).values():
                 return line
         return None
+
+if __name__ == '__main__':
+    dd = Data("../data/testdata.xlsx","美多商城接口测试")
+    rse = dd.get_case_pre('login_4')
+    print(json.loads(rse['请求参数']))

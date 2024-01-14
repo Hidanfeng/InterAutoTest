@@ -32,9 +32,10 @@ def assert_db(db_name,result,db_verify):
     # 2、查询sql，excel定义好的
     db_res = sql.fetchone(db_verify)
 
-    #log.debug("数据库查询结果：{}".format(str(db_res)))
+    log.debug("数据库查询结果：{}".format(str(db_res)))
     # 3、数据库的结果与接口返回的结果验证
     # 获取数据库结果的key
+    print(type(db_res))
     verify_list = list(dict(db_res).keys())
     # 根据key获取数据库结果，接口结果
     for line in verify_list:

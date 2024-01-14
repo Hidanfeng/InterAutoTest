@@ -26,7 +26,7 @@ data_key = ExcelConfig.DataConfig
 #2、测试用例方法，参数化运行
 #一个用例的执行
 class TestExcel:
-    #1、增加Pyest
+    #1、增加Pyest参数化
     #2、修改方法参数
     #3、重构函数内容
     #4、pytest.main
@@ -111,12 +111,12 @@ class TestExcel:
             # 前置测试用例
             pre_case = data_init.get_case_pre(pre_exec)
             print("前置条件信息为：%s"%pre_case)
-            pre_res = self.run_pre(pre_case)
+            pre_res = self.run_pre(pre_case) #pre_res变成调用接口的返回了
             headers,cookies = self.get_correlation(headers,cookies,pre_res)
 
         header = Base.json_parse(headers)
         cookie = Base.json_parse(cookies)
-        res = self.run_api(url, method, params, header,cookie)
+        res = self.run_api(url, method, params, header)
         print("测试用例执行：%s" % res)
 
         #allure
@@ -137,11 +137,14 @@ class TestExcel:
         #状态码，返回结果内容，数据库相关的结果的验证
         #状态码
         assert_util = AssertUtil()
+        print(int(res["code"]),int(code))
         assert_util.assert_code(int(res["code"]),int(code))
+
         #返回结果内容
         assert_util.assert_in_body(str(res["body"]),str(expect_result))
         #数据库结果断言
-        Base.assert_db("db_1",res["body"],db_verify)
+        if db_verify:
+            Base.assert_db("db_1",res["body"],db_verify)
 
 
         #1、初始化数据库

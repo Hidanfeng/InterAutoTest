@@ -59,18 +59,21 @@ class Mysql:
             self.cursor.close()
 
 if __name__ == "__main__":
-    mysql = Mysql("211.103.136.242",
-                  "test",
-                  "test123456","meiduo",
-                  charset="utf8",
-                  port=7090)
-    #res = mysql.fetchall("select username,password from tb_users")
-    res = mysql.exec("update tb_users set first_name='python' where username = 'python'")
-    print(res)
+    mysql = Mysql("127.0.0.1",
+                  "root",
+                  "xdf602525","xustudy",
+                  charset="utf8"
+                  )
+    res = mysql.fetchone("select *from students")
+    # res = mysql.exec("update tb_users set first_name='python' where username = 'python'")
+    print(type(res),res)
+    uu = list(res.keys())
+    print(uu)
     #1、创建db_conf.yml, db1,db2
     #2、编写数据库基本信息
     #3、重构Conf.py
     #4、执行
+
 
 """
 #1、导入pymysql包
