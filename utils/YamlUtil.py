@@ -1,3 +1,4 @@
+import json
 import os
 import yaml
 #1、创建类
@@ -25,3 +26,17 @@ class YamlReader:
             with open(self.yamlf,"rb") as f:
                 self._data_all = list(yaml.safe_load_all(f))
         return self._data_all
+
+    def get_yaml_data(self):
+        if not self._data:
+            with open(self.yamlf,'r',encoding='utf-8') as f:
+                self._data =list(yaml.load_all(f,Loader=yaml.FullLoader))
+            return self._data
+
+
+if __name__ == '__main__':
+    import json
+    ya = YamlReader("../config/conf.yml")
+    data = ya.get_yaml_data()
+    # data = json.dumps((data[0]))
+    print(data)

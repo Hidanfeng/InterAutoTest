@@ -40,14 +40,14 @@ class Mysql:
         """
         try:
             if self.conn and self.cursor:
-                self.cursor.execute(sql)
+                res = self.cursor.execute(sql)
                 self.conn.commit()
         except Exception as ex:
             self.conn.rollback()
             self.log.error("Mysql 执行失败")
             self.log.error(ex)
             return False
-        return True
+        return res
 
 #4、关闭对象
     def __del__(self):
@@ -64,11 +64,14 @@ if __name__ == "__main__":
                   "xdf602525","xustudy",
                   charset="utf8"
                   )
-    res = mysql.fetchone("select *from students")
-    # res = mysql.exec("update tb_users set first_name='python' where username = 'python'")
-    print(type(res),res)
-    uu = list(res.keys())
-    print(uu)
+
+    res = mysql.fetchone("select *from students where sno = 110")
+    # res = mysql.exec("INSERT INTO students (`sno`, `sname`, `ssex`, `sbirthday`, `class`, `age`) VALUES ('120', '曾华', '男', '1977-09-01 00:00:00', '95033', 18);")
+    print(res)
+    sbirthday = res['sbirthday']
+    print(type(sbirthday))
+    # uu = list(res.keys())
+    # print(uu)
     #1、创建db_conf.yml, db1,db2
     #2、编写数据库基本信息
     #3、重构Conf.py

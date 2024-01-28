@@ -1,26 +1,78 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "美多商城接口测试",
+    "name" : "登录成功用例",
     "children" : [ {
-      "name" : "登录",
-      "children" : [ {
-        "name" : "login_4登录成功",
-        "uid" : "a8fed9568f47b8ef",
-        "parentUid" : "06f69b8fb76aa27b897a4667737d00e5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1703758980248,
-          "stop" : 1703758980314,
-          "duration" : 66
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'用例ID': 'login_4', '模块': '登录', '接口名称': '登录成功', '请求URL': '/api/operator_login', '前置条件': '', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"username\":\"byhy\",\"password\":\"sdfsdf\"}', '预期结果': \"nickname': '1号超级管理员'\", '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/json\",\"Accept\":\"*/*\"}', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
-      } ],
-      "uid" : "06f69b8fb76aa27b897a4667737d00e5"
+      "name" : "test_yaml[login0]",
+      "uid" : "3fdc3d27bc104113",
+      "parentUid" : "8a52df65c98c27e1af413374a2815a38",
+      "status" : "failed",
+      "time" : {
+        "start" : 1706125377445,
+        "stop" : 1706125377451,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case_name': '登录成功用例', 'url': '/api/operator_login', 'data': {'usernam': 'byhy', 'password': 'sdfsdf'}, 'expect': '1号超级管理员'}" ]
+    }, {
+      "name" : "test_yaml[login0]",
+      "uid" : "19bf41d0ad1026e1",
+      "parentUid" : "8a52df65c98c27e1af413374a2815a38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706125719800,
+        "stop" : 1706125719806,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case_name': '登录成功用例', 'url': '/api/operator_login', 'data': {'username': 'byhy', 'password': 'sdfsdf'}, 'expect': '1号超级管理员'}" ]
     } ],
-    "uid" : "42e18c0608b0a03632484511b3f54d08"
+    "uid" : "8a52df65c98c27e1af413374a2815a38"
+  }, {
+    "name" : "test_divoiecslist[divoiecs0]",
+    "uid" : "ab493ff8a0c28990",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1706125719750,
+      "stop" : 1706125719753,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_name': '查询设备型号1', 'url': '/api/operator/devicemodel/list', 'data': {'pagesize': 5, 'pagenum': 1, 'keywords': ''}, 'expect': {'name': 'fdsf'}}" ]
+  }, {
+    "name" : "test_divoiecslist[divoiecs1]",
+    "uid" : "f12bb6efd2e3a197",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1706125719793,
+      "stop" : 1706125719796,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_name': '查询设备型号2', 'url': '/api/operator/devicemodel/list', 'data': {'pagesize': 5, 'pagenum': 1, 'keywords': ''}, 'expect': {'name': 'fdsf'}}" ]
+  }, {
+    "name" : "登录失败用例",
+    "children" : [ {
+      "name" : "test_yaml[login1]",
+      "uid" : "f3150e2185fab14a",
+      "parentUid" : "abfa359a973086c34b500e33ede4e861",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706125719807,
+        "stop" : 1706125719812,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case_name': '登录失败用例', 'url': '/api/operator_login', 'data': {'username': 'test123456', 'password': '111111'}, 'expect': '用户名不存在'}" ]
+    } ],
+    "uid" : "abfa359a973086c34b500e33ede4e861"
   } ],
   "name" : "behaviors"
 }

@@ -1,5 +1,60 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '1号超级管理员' in \"{'code': 200, 'body': {'msg': '用户名不存在', 'ret': 2}}\"\n +  where \"{'code': 200, 'body': {'msg': '用户名不存在', 'ret': 2}}\" = str({'body': {'msg': '用户名不存在', 'ret': 2}, 'code': 200})",
+      "children" : [ {
+        "name" : "test_yaml[login0]",
+        "uid" : "3fdc3d27bc104113",
+        "parentUid" : "0fb4322a0e6406a3b58f01a5714552d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1706125377445,
+          "stop" : 1706125377451,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_name': '登录成功用例', 'url': '/api/operator_login', 'data': {'usernam': 'byhy', 'password': 'sdfsdf'}, 'expect': '1号超级管理员'}" ]
+      } ],
+      "uid" : "0fb4322a0e6406a3b58f01a5714552d0"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: unsupported operand type(s) for +: 'dict' and 'str'",
+      "children" : [ {
+        "name" : "test_divoiecslist[divoiecs0]",
+        "uid" : "ab493ff8a0c28990",
+        "parentUid" : "228dc9d23b513529aee98696de4b39db",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706125719750,
+          "stop" : 1706125719753,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_name': '查询设备型号1', 'url': '/api/operator/devicemodel/list', 'data': {'pagesize': 5, 'pagenum': 1, 'keywords': ''}, 'expect': {'name': 'fdsf'}}" ]
+      }, {
+        "name" : "test_divoiecslist[divoiecs1]",
+        "uid" : "f12bb6efd2e3a197",
+        "parentUid" : "228dc9d23b513529aee98696de4b39db",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706125719793,
+          "stop" : 1706125719796,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_name': '查询设备型号2', 'url': '/api/operator/devicemodel/list', 'data': {'pagesize': 5, 'pagenum': 1, 'keywords': ''}, 'expect': {'name': 'fdsf'}}" ]
+      } ],
+      "uid" : "228dc9d23b513529aee98696de4b39db"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }

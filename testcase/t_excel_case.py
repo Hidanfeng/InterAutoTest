@@ -210,14 +210,16 @@ class TestExcel:
             # 结果替换
             cookies = Base.res_sub(headers, cookies_data)
         return headers,cookies
+
+
 if __name__ == '__main__':
     #pass
     report_path = Conf.get_report_path()+os.sep+"result"
     report_html_path = Conf.get_report_path()+os.sep+"html"
-    pytest.main(["-s","test_excel_case.py","--alluredir",report_path])
+    pytest.main(["-s","t_excel_case.py","--alluredir",report_path])
 
 
-    #Base.allure_report("./report/result","./report/html")
+    Base.allure_report("./report/result","./report/html")
     #Base.send_mail(title="接口测试报告结果",content=report_html_path)
     #固定headers请求
     #1.判断headers是否存在，json转义，无需

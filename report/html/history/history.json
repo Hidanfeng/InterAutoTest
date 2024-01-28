@@ -1,5 +1,65 @@
 {
-  "d2b70224f196558da2a6976b47b4331e" : {
+  "9aeb7f42862232d4a16ef5e6d86b1a10" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f12bb6efd2e3a197",
+      "status" : "broken",
+      "statusDetails" : "TypeError: unsupported operand type(s) for +: 'dict' and 'str'",
+      "time" : {
+        "start" : 1706125719793,
+        "stop" : 1706125719796,
+        "duration" : 3
+      }
+    } ]
+  },
+  "4505d457df9a348c22898ae5d30690c5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab493ff8a0c28990",
+      "status" : "broken",
+      "statusDetails" : "TypeError: unsupported operand type(s) for +: 'dict' and 'str'",
+      "time" : {
+        "start" : 1706125719750,
+        "stop" : 1706125719753,
+        "duration" : 3
+      }
+    } ]
+  },
+  "46da93e898390e0ce319310102aab0b6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3fdc3d27bc104113",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '1号超级管理员' in \"{'code': 200, 'body': {'msg': '用户名不存在', 'ret': 2}}\"\n +  where \"{'code': 200, 'body': {'msg': '用户名不存在', 'ret': 2}}\" = str({'body': {'msg': '用户名不存在', 'ret': 2}, 'code': 200})",
+      "time" : {
+        "start" : 1706125377445,
+        "stop" : 1706125377451,
+        "duration" : 6
+      }
+    } ]
+  },
+  "93e39f5b15a4b625d32235b9e85f2193" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,12 +69,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a8fed9568f47b8ef",
+      "uid" : "19bf41d0ad1026e1",
       "status" : "passed",
       "time" : {
-        "start" : 1703758980248,
-        "stop" : 1703758980314,
-        "duration" : 66
+        "start" : 1706125719800,
+        "stop" : 1706125719806,
+        "duration" : 6
+      }
+    } ]
+  },
+  "2c1fbc36f88effd22600db8aa384d646" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f3150e2185fab14a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706125719807,
+        "stop" : 1706125719812,
+        "duration" : 5
       }
     } ]
   }

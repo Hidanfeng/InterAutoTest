@@ -1,8 +1,19 @@
 {
-  "total" : 1,
+  "total" : 4,
   "items" : [ {
-    "uid" : "42e18c0608b0a03632484511b3f54d08",
-    "name" : "美多商城接口测试",
+    "uid" : "8a52df65c98c27e1af413374a2815a38",
+    "name" : "登录成功用例",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "abfa359a973086c34b500e33ede4e861",
+    "name" : "登录失败用例",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

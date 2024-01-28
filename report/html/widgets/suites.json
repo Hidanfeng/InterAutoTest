@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e",
-    "name" : "testcase",
+    "uid" : "87e14670e51944739104028b839a1202",
+    "name" : "testcase.test_Elife",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
+      "failed" : 1,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 5
     }
   } ]
 }

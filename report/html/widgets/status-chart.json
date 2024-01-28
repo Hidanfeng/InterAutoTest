@@ -1,10 +1,50 @@
 [ {
-  "uid" : "a8fed9568f47b8ef",
-  "name" : "login_4登录成功",
+  "uid" : "ab493ff8a0c28990",
+  "name" : "test_divoiecslist[divoiecs0]",
   "time" : {
-    "start" : 1703758980248,
-    "stop" : 1703758980314,
-    "duration" : 66
+    "start" : 1706125719750,
+    "stop" : 1706125719753,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f12bb6efd2e3a197",
+  "name" : "test_divoiecslist[divoiecs1]",
+  "time" : {
+    "start" : 1706125719793,
+    "stop" : 1706125719796,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f3150e2185fab14a",
+  "name" : "test_yaml[login1]",
+  "time" : {
+    "start" : 1706125719807,
+    "stop" : 1706125719812,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fdc3d27bc104113",
+  "name" : "test_yaml[login0]",
+  "time" : {
+    "start" : 1706125377445,
+    "stop" : 1706125377451,
+    "duration" : 6
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "19bf41d0ad1026e1",
+  "name" : "test_yaml[login0]",
+  "time" : {
+    "start" : 1706125719800,
+    "stop" : 1706125719806,
+    "duration" : 6
   },
   "status" : "passed",
   "severity" : "normal"

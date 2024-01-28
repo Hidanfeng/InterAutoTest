@@ -114,4 +114,6 @@ if __name__ == "__main__":
     #2、接口用例返回结果内容进数据库验证
    # print(conf_read.get_excel_file())
     #print(conf_read.get_excel_sheet())
-    print(conf_read.get_email_info())
+    # print(conf_read.get_email_info())
+
+    print(os.sep)

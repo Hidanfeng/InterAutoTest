@@ -1,0 +1,30 @@
+
+#登录测试用例
+---
+#测试用例名称
+"case_name": "查询设备型号1"
+#url地址
+"url": "/api/operator/devicemodel/list"
+#data
+"data":
+  pagesize: 5
+  pagenum: 1
+  keywords: ""
+
+#期望结果
+"expect":
+  "name": "fdsf"
+---
+#测试用例名称
+"case_name": "查询设备型号2"
+#url地址
+"url": "/api/operator/devicemodel/list"
+#data
+"data":
+  pagesize: 5
+  pagenum: 1
+  keywords: ""
+
+#期望结果
+"expect":
+  name: "fdsf"
